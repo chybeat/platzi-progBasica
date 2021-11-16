@@ -162,10 +162,10 @@ The client must be verified to be able transfers.
 Destiny customer has to be verified
 The balance in the account must be greater than amount to be transferred plus transaction costs
 
-    Transaction cost:
-    If destination account bank is same as the customer's, transaction cost $0 USD
-    If different, the transaction cost is $100 USD
-    Transfers are able in hours from 9 to 12 and 15 to 20
+Transaction cost:
+If destination account bank is same as the customer's, transaction cost $0 USD
+If different, the transaction cost is $100 USD
+Transfers are able in hours from 9 to 12 and 15 to 20
 
 The HTML file data changes on interactives like verify an user, transfer money, etc.
 
