@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Tu peso en un lugar donde pesas menos</title>
+	</head>
+	<body>
+		<h1>Tu peso en otro planeta</h1>
+		<p>En la tiera pesas distinto que en Marte o Jupiter</p>
+		<script>
+			var usuario = prompt("¿Cual es tu peso?");
+			var peso = parseInt(usuario);
+			var gTierra = 9.8;
+			var gMarte = 3.7;
+			var gJupiter = 24.8;
+			var pesoFinal;
+
+			pesoFinal = (peso * gMarte) / gTierra;
+			pesoFinal = parseInt(pesoFinal);
+			document.write("Tu peso de " + peso + "Kg en marte es de tan solo <strong>" + pesoFinal + "Kg<strong>");
+		</script>
+	</body>
+</html>

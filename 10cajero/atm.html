@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Cajero automático</title>
+	</head>
+	<body>
+		<h1>Bienvenido a tu cajero. <span id="restante"></span></h1>
+		<p>
+			<img src="cajero.webp" />
+		</p>
+		<p>por consola se puede ver el saldo. La variable "caja" muestra los billetes restantes</p>
+		<p>
+			<input type="number" id="dinero" />
+			<input type="button" value="Extraer" id="extraer" />
+		</p>
+		<p id="resultado"></p>
+		<hr />
+		<figure>
+			<figcaption>Diagrama de flujo para la lógica del cajero. (Dar la menor cantidad de billetes)</figcaption>
+			<img src="diagrrama_de_flujo.svg" alt="diagrrama_de_flujo" />
+		</figure>
+		<script src="cajero.js"></script>
+	</body>
+</html>
