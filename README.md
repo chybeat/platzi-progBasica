@@ -153,19 +153,19 @@ Files:
 1. vof.html
 1. vof.js
 
-_The request:_
+**The request:**
 
-In a bank the clients has an account and balance. The customers wants to make a transfer to a destination bank account. The amount to be transferred to the client is 1 million.
+    In a bank the clients has an account and balance. The customers wants to make a transfer to a destination bank account. The amount to be transferred to the client is 1 million.
 
-The mandatory conditions for transfer:
-The client must be verified to be able transfers.
-Destiny customer has to be verified
-The balance in the account must be greater than amount to be transferred plus transaction costs
+    The mandatory conditions for transfer:
+    The client must be verified to be able transfers.
+    Destiny customer has to be verified
+    The balance in the account must be greater than amount to be transferred plus transaction costs
 
-Transaction cost:
-If destination account bank is same as the customer's, transaction cost $0 USD
-If different, the transaction cost is $100 USD
-Transfers are able in hours from 9 to 12 and 15 to 20
+    Transaction cost:
+    If destination account bank is same as the customer's, transaction cost $0 USD
+    If different, the transaction cost is $100 USD
+    Transfers are able in hours from 9 to 12 and 15 to 20
 
 The HTML file data changes on interactives like verify an user, transfer money, etc.
 
