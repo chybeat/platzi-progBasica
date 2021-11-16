@@ -144,7 +144,7 @@ To run the server node.js installed is required. In OS console run the command:
 
 Open browser and navigate to http://127.0.0.1:8989. The las 4 numbers indicate the port, defined in servidor.js with code
 
-`aplicacion.listen(8989)`)
+`aplicacion.listen(8989)`
 
 ### 12tablasVerdad - _Learning about truth tables with bank transfer example_ (interactive)
 
